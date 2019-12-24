@@ -1,0 +1,5 @@
+Requirement already satisfied: requests in /var/waps/entornos/testpyopenssl/lib/python2.7/site-packages (2.20.0)
+Requirement already satisfied: idna<2.8,>=2.5 in /var/waps/entornos/testpyopenssl/lib/python2.7/site-packages (from requests) (2.7)
+Requirement already satisfied: urllib3<1.25,>=1.21.1 in /var/waps/entornos/testpyopenssl/lib/python2.7/site-packages (from requests) (1.24.3)
+Requirement already satisfied: certifi>=2017.4.17 in /var/waps/entornos/testpyopenssl/lib/python2.7/site-packages (from requests) (2019.11.28)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /var/waps/entornos/testpyopenssl/lib/python2.7/site-packages (from requests) (3.0.4)
