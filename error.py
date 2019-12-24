@@ -12,3 +12,9 @@ response_dict = json.loads(response_dumps)
 response_dict = json.loads(response_dict)
 pokemons = response_dict.get('results')
 print pokemons
+
+
+
+import requests
+test_google = requests.get('https://google.com/')
+print test_google
