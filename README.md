@@ -26,6 +26,9 @@ Se soluciono usando OpenSSL con una version actualizada de cryptography, tambien
 Se instalo de la siguiente manera:
 
 pip uninstall cryptography
+
 pip install cryptography==2.8
+
 pip install stripe
+
 pip install requests==2.22.0
