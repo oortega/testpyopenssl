@@ -1,0 +1,12 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+#settings.py
+claves_server.py
+#manage.py
+#Carpeta de pycharm
+.idea/
+.vscode/
