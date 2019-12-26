@@ -2,23 +2,23 @@
 
 Test Pyopenssl
 
-# Clonar proyecto:
+### Clonar proyecto:
 git clone git@github.com:oortega/testpyopenssl.git
 
-# Crear Entorno:
+### Crear Entorno:
 mkvirtualenv testpyopenssl
 
-# Entrar en el entorno
+### Entrar en el entorno
 workon testpyopenssl
 
-# Instalar Bibliotecas
+### Instalar Bibliotecas
 pip install requests==2.22.0
 pip install requests[security]==2.22.0
 
-# Instalar Requirements
+### Instalar Requirements
 pip install -r requirements.txt
 
-# Solucion
+### Solucion
 
 Se soluciono usando OpenSSL con una version actualizada de cryptography.
 
