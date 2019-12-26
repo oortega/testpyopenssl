@@ -21,6 +21,11 @@ pip install -r requirements.txt
 
 ### Solucion
 
-Se soluciono usando OpenSSL con una version actualizada de cryptography.
+Se soluciono usando OpenSSL con una version actualizada de cryptography, tambien debe estar requests en la version 2.22.0
 
-Se actualizo cryptography 2.0.3 a cryptography 2.8
+Se instalo de la siguiente manera:
+
+pip uninstall cryptography
+pip install cryptography==2.8
+pip install stripe
+pip install requests==2.22.0
