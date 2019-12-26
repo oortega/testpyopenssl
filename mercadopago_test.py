@@ -2,14 +2,14 @@ import mercadopago
 import ast
 import json
 telefono = "9981875356"
-nombre = "Luis Abraham Salgado Ascencio"
-email = "luissalgado9@hotmail.com"
+nombre = "Jose Ramiro"
+email = "jose-ramiro-10@outlook.com"
 moneda = "MXN"
-id_cliente = "1694458604555838"
-secret_cliente = "vAWNlGYywaLoDzyVIU0kkggv2sp1PeWj"
+id_cliente = "" # Poner llaves
+secret_cliente = # Poner llaves
 mp = mercadopago.MP(id_cliente, secret_cliente)
 mp.sandbox_mode(True)
-url_webhook = "https://3c6b0b1e.ngrok.io/webhook/mercadopago/luissolutions/"
+url_webhook = "" # Poner webhook 
 preference = {
     "items":[
         {
