@@ -1,0 +1,1 @@
+El problema era que usabamos cryptography==2.2.2, por eso daba error de ssl error
