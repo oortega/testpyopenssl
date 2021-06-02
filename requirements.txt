@@ -9,5 +9,5 @@ pycparser==2.19
 pyOpenSSL==19.1.0
 requests==2.22.0
 six==1.13.0
-urllib3==1.24.3
+urllib3==1.26.5
 mercadopago==0.3.4
